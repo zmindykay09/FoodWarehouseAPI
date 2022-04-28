@@ -9,4 +9,4 @@ class foodstuff(models.Model):
     UnitsInStock = models.PositiveSmallIntegerField()
 
     def _str_(self):
-        return self.name
+        return self.Name
